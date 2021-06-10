@@ -1,0 +1,63 @@
+img {
+    height: 200px;   
+}
+
+
+.page {
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.menu {
+	display: flex;
+    justify-content: center;
+}
+
+.mitem {
+	border: 5px solid black;
+    padding: 5px;
+    margin: 10px;  
+    background-color:#6aada7;
+}
+
+.abtme {
+	border: 5px solid black;
+    padding: 5px;
+    margin: 5px; 
+    background-color: #99edff;
+    color: black;
+}
+
+.post {
+	border: 5px solid black;
+    padding: 5px;
+    margin: 10px;   
+    background-color: #99edff;
+    color: black;
+}
+
+.friend {
+	border: 5px solid black;
+    padding: 5px;
+    margin: 10px;   
+    background-color: #99edff;
+    color: black;
+}
+
+body {
+    background-image:linear-gradient(to bottom right, #38d1d1, #22a1ba);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+	color: black;
+    text-align: center;
+}
+
+.dates {
+    flex-direction: column;
+    border: groove #1669a6;
+    background-color: #6aada7;
+    text-align: center;
+    color: black;
+}
